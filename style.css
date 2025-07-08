@@ -9,6 +9,7 @@
     align-items: center;
     min-height: 100vh;
     background-color: #f4e4ba;
+    font-family: 'Varela Round', sans-serif;
   }
   
   .container {
@@ -16,13 +17,23 @@
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
-    width: 40vh;
+    min-width: 40vh;
+  }
+  h2{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   
-  form {
+  .form {
     margin: 2rem 0 1rem 0;
+    margin-left: 1rem;
   }
-  
+  .to{
+    margin-left: 1rem;
+
+  }
   form select,
   button,
   input {
@@ -71,6 +82,7 @@
   
   .msg {
     margin: 2rem 0 2rem 0;
+    text-align: center;
   }
   
   form button {
